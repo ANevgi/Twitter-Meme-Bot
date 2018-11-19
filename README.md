@@ -26,7 +26,8 @@ url = "https://www.memedroid.com/search?query=" + search
 ```
 A loop was then used to find a random meme on the page and save it for it to be later uploaded onto Twitter. Afterwards, the Tweet is finally sent with the meme and also likes the user's Tweet :)
 ```
-
+ 
+ api.create_favorite(twt.id)
  twt = api.update_status(status="@" + twt_user + " Enjoy your meme!", in_reply_to_status_id=twt.id, media_ids=meme_ids)
 
 ```
