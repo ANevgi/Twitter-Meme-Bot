@@ -1,5 +1,5 @@
 # Twitter Meme Bot
-Bot that makes use of the Tweepy library to reply to Tweets with memes.
+Bot that makes use of the Tweepy library to reply to Tweets with memes that a user asked for.
 
 # How It Works
 The bot searches for tweets that include a specific phrase. In this case I used something unique, so that I could easily test the bot.
